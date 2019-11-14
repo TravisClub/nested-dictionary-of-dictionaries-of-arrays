@@ -1,7 +1,6 @@
 Nested Dictionary of Dictionaries of Arrays
 =======================
 
-# Nested Dictionary of Dictionaries of Arrays
 Given an input as json array (each element is a flat dictionary), parses this json, and return a nested dictionary of dictionaries of arrays, with keys specified in command line arguments and the leaf values as arrays of flat dictionaries.
 
 # Setup
