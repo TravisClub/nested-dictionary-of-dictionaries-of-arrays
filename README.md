@@ -3,6 +3,9 @@ Nested Dictionary of Dictionaries of Arrays
 
 Given an input as json array (each element is a flat dictionary), parses this json, and return a nested dictionary of dictionaries of arrays, with keys specified in command line arguments and the leaf values as arrays of flat dictionaries.
 
+E.g. 
+    cat ../docs/input.json | python json_parser.py key_level_1 key_level_2 key_level_3
+
 # Setup
 
 1 - Install dev prereqs (use equivalent linux or windows pkg mgmt)
@@ -31,4 +34,4 @@ Given an input as json array (each element is a flat dictionary), parses this js
 
 5 - Run the code
 ----
-    python oyster/oyster_card.py
+    python 
